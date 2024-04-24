@@ -1,0 +1,43 @@
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/takso/OneDrive/Desktop/Lesson/git_challenge/.git/
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git status
+On branch pull_request
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git add hello_world.txt
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git status
+On branch pull_request
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git commit -m "hello_world.txtを追加"
+[pull_request 279c045] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git status
+On branch pull_request
+nothing to commit, working tree clean
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git status
+On branch pull_request
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git add hello_world.txt
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git commit -m "hello_world.txtを追加"
+[pull_request 931dda3] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git status
+On branch pull_request
+nothing to commit, working tree clean
+PS C:\Users\takso\OneDrive\Desktop\Lesson\git_challenge> git log --oneline
+931dda3 (HEAD -> pull_request) hello_world.txtを追加
+279c045 hello_world.txtを追加
+
+
